@@ -5,7 +5,7 @@ categories: [how-to]
 tags: [raspberry-pi, server, git, privacy]
 last_modified_at: 2024-05-14 23:00:00 -0300
 ---
-<img src="/images/rpi5.png">
+<img src="/images/rpi5.png" alt="raspberry-pi-5">
 
 For this Private Git Server, we're gonna use <a href="https://forgejo.org/" target="_blank">Forgejo</a>
 
