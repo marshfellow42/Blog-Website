@@ -1,7 +1,7 @@
 ---
 title: How to add standalone emulators on EmulationStation
 categories: [how-to]
-tags: [emulation, emulationstation]
+tags: [emulation, emulationstation, open-source]
 ---
 
 ## Installation

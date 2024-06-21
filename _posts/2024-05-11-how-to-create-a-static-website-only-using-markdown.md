@@ -1,8 +1,8 @@
 ---
 title: How to create a static website only using Markdown
 categories: [how-to]
-tags: [static-website, website, markdown]
-last_modified_at: 2024-05-18 23:00:00 -0300
+tags: [static-website, website, markdown, jekyll, minima, open-source]
+last_modified_at: 2024-05-18
 ---
 
 In this blog, you'll learn how to create a static website by only using Markdown

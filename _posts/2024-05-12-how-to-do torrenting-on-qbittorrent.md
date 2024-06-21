@@ -1,8 +1,8 @@
 ---
 title: How to do torrenting on qBittorrent
 categories: [how-to]
-tags: [torrent, qbittorrent]
-last_modified_at: 2024-05-19 23:00:00 -0300
+tags: [torrent, qbittorrent, torrenting, privacy, open-source, sharing]
+last_modified_at: 2024-05-26 01:06:00
 ---
 
 This guide was specifically made for qBittorrent, but the process must be similar to other torrent clients like Transmission or Deluge
@@ -21,7 +21,13 @@ I recommend going `trackerless` on the torrents you're hosting, and only depend 
 
 Because this way you aren't creating a single point of failure in case you suddenly change the IP address for your torrent or change ISPs
 
-I recommend [Mullvad VPN](https://mullvad.net/en/vpn) if you want to start hosting torrents, because at the beginning there's gonna be a lot of uploading on your part, and you don't want your name to be related to that (especially not in North America). Afterwards it'll start to be more dissipated when more seeders start coming in. Because those seeders can maintain your torrent and you don't need to be that involved in the process anymore
+I recommend [AirVPN](https://airvpn.org/) if you want to start hosting torrents, because at the beginning there's gonna be a lot of uploading on your part, and you don't want your name to be related to that (especially not in North America). Afterwards it'll start to be more dissipated when more seeders start coming in. Because those seeders can maintain your torrent and you don't need to be that involved in the process anymore
+
+I also recommend AirVPN instead of MullvadVPN, because MullvadVPN has <a href="https://mullvad.net/en/blog/removing-the-support-for-forwarded-ports" target="_blank">banned</a> port-forwarding on May 2023
+
+You'll also need to open your ports so others can download from you
+
+I have a [guide](/posts/how-to-properly-seed-a-torrent/) on how to do that
 
 ## Setting up your own tracker
 > This approach is not recommended if you prioritize privacy
@@ -31,7 +37,7 @@ I recommend [Mullvad VPN](https://mullvad.net/en/vpn) if you want to start hosti
 
 This is for using your own internet as a tracker without depending on public trackers
 
-I also recommend [Mullvad VPN](https://mullvad.net/en/vpn) if you want to set up your own tracker, just so you don't have to share your public IP address with everyone by embedding on the tracker
+I also recommend [AirVPN](https://airvpn.org/) if you want to set up your own tracker, just so you don't have to share your public IP address with everyone by embedding on the tracker
 
 1. Go to qBittorrent settings
 2. Go to Advanced

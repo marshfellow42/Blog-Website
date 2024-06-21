@@ -1,9 +1,8 @@
 ---
 title: How to create a Private Git Server on a Raspberry Pi
-subtitle: A guide to learn how to host your own git server without depending on big tech
 categories: [how-to]
-tags: [raspberry-pi, server, git, privacy]
-last_modified_at: 2024-05-14 23:00:00 -0300
+tags: [raspberry-pi, server, git, privacy, forgejo, open-source, self-hosted]
+last_modified_at: 2024-05-14
 ---
 <img src="/images/rpi5.png" alt="raspberry-pi-5">
 
